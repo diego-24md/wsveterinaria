@@ -58,5 +58,5 @@ Permite realizar operaciones CRUD: **crear, leer, actualizar y eliminar registro
     npm start
     ```
     ```
-    Servidor disponible en 👉 http://localhost:3000
+    Servidor disponible en 👉 http://localhost:3000 👈
     ```
