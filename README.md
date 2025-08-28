@@ -36,7 +36,7 @@ Permite realizar operaciones CRUD: **crear, leer, actualizar y eliminar registro
     DB_PORT=3306
     ```
 
-4.Configurar la base de datos en MySQL (ejemplo):
+4.Configurar la base de datos en MySQL:
 
     ```
     CREATE TABLE mascotas (
@@ -47,7 +47,7 @@ Permite realizar operaciones CRUD: **crear, leer, actualizar y eliminar registro
     color VARCHAR(30),
     peso DECIMAL(5,2),
     genero ENUM('Macho', 'Hembra')
-) ENGINE=InnoDB;
+    ) ENGINE=InnoDB;
 
     ```
 
