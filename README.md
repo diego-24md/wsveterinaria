@@ -39,19 +39,17 @@ Permite realizar operaciones CRUD: **crear, leer, actualizar y eliminar registro
 4.Configurar la base de datos en MySQL (ejemplo):
 
     ```
-    CREATE DATABASE tu_base;
-
-    USE tu_base;
-
     CREATE TABLE mascotas (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        nombre VARCHAR(100) NOT NULL,
-        tipo VARCHAR(50) NOT NULL,
-        raza VARCHAR(50) NOT NULL,
-        color VARCHAR(50) NOT NULL,
-        peso DECIMAL(5,2) NOT NULL,
-        genero ENUM('Macho','Hembra') NOT NULL
-    );
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    tipo VARCHAR(20),
+    raza VARCHAR(50),
+    color VARCHAR(30),
+    peso DECIMAL(5,2),
+    genero ENUM('Macho', 'Hembra')
+) ENGINE=InnoDB;
+
+    ```
 
 5. Ejecutar el servidor:
     ```
